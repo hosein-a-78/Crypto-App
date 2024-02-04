@@ -1,0 +1,29 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    --primary-color: #3874ff;
+    --secondary-color: #23242e;
+    --bg-color: #18181ce6;
+    --color-border: #22262e;
+    --text-color: #fff;
+}
+
+body {
+    margin: auto;
+    max-width: 1000px;
+    min-height: 100vh;
+    padding: 10px;
+    background-color: #131315;
+    color: var(--text-color);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
