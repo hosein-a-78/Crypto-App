@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
             <header className={styles.header}>
                 <h1>Crypto App</h1>
                 <p>
-                    <a href="www.google.com">My Crypto App</a>
+                    <a href="https://github.com/abed-a-78/Crypto-App">My Crypto App</a>
                 </p>
             </header>
             {children}
