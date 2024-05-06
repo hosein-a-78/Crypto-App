@@ -46,8 +46,15 @@ const Search = ({ currency, setCurrency }) => {
 
     return (
         <div className={styles.searchBox}>
-            <input type="text" placeholder="Search" value={text} onChange={e => setText(e.target.value)} />
-            <select value={currency} onChange={e => setCurrency(e.target.value)}>
+            <input
+                type="text"
+                placeholder="Search"
+                value={text}
+                onChange={e => setText(e.target.value)}
+            />
+            <select
+                value={currency}
+                onChange={e => setCurrency(e.target.value)}>
                 <option value="usd">usd</option>
                 <option value="eur">eur</option>
                 <option value="jpy">jpy</option>

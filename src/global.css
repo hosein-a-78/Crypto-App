@@ -3,9 +3,11 @@
     line-height: 1.5;
     --primary-color: #3874ff;
     --secondary-color: #23242e;
-    --bg-color: #18181ce6;
+    --bg-color-light: #fff;
+    --bg-color-dark: #000000;
     --color-border: #22262e;
-    --text-color: #fff;
+    --text-color-dark: #000000;
+    --text-color-light: #fff;
 }
 
 body {
@@ -13,7 +15,7 @@ body {
     max-width: 1000px;
     min-height: 100vh;
     padding: 10px;
-    background-color: #131315;
+    background-color: #d6d6e9;
     color: var(--text-color);
 }
 

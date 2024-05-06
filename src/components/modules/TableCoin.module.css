@@ -17,7 +17,7 @@
 }
 
 .table thead {
-    border-bottom: 2px solid var(--text-color);
+    border-bottom: 2px solid var(--text-color-dark);
     margin-bottom: 20px;
 }
 
@@ -29,7 +29,7 @@
 
 .table tbody tr {
     height: 80px;
-    border-bottom: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--text-color-dark);
     font-weight: 600;
     font-size: 1.1rem;
     cursor: pointer;
@@ -50,7 +50,7 @@
 .symbol span {
     font-weight: 600;
     font-size: 1.2rem;
-    color: #9fa6b7;
+    color: #646568;
 }
 
 .success {

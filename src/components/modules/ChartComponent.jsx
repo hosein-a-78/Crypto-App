@@ -7,7 +7,7 @@ const ChartComponent = ({ data, type }) => {
             <ResponsiveContainer width="100%" height="100%">
                 <LineChart width={400} height={400} data={data}>
                     <Line type="monotone" dataKey={type} stroke="var(--primary-color)" strokeWidth="2px" />
-                    <CartesianGrid stroke="#404042" />
+                    <CartesianGrid stroke="var(--color-border)" />
                     <YAxis dataKey={type} domain={["auto", "auto"]} />
                     <XAxis dataKey="date" hide />
                     <Legend />

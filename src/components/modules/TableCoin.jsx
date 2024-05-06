@@ -8,7 +8,6 @@ import styles from "./TableCoin.module.css"
 import TableRow from "./TableRow";
 
 const TableCoin = ({ coins, isLoading, setChart }) => {
-
     return (
         <div className={styles.container}>
             {isLoading ? (<RotatingLines className={styles.spinner} strokeWidth="2" strokeColor="var(--primary-color)" />) : (
