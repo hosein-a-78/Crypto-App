@@ -9,7 +9,6 @@ import TableRow from "./TableRow";
 
 const TableCoin = ({ coins, isLoading, setChart }) => {
 
-    console.log(coins);
     return (
         <div className={styles.container}>
             {isLoading ? (<RotatingLines className={styles.spinner} strokeWidth="2" strokeColor="var(--primary-color)" />) : (

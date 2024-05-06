@@ -42,7 +42,8 @@ const Search = ({ currency, setCurrency }) => {
         setIsLoading(true);
         search();
         return () => controller.abort();
-    }, [text])
+    }, [text]);
+
     return (
         <div className={styles.searchBox}>
             <input type="text" placeholder="Search" value={text} onChange={e => setText(e.target.value)} />

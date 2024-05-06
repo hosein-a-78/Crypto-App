@@ -10,6 +10,7 @@ const Pagination = ({ page, setPage }) => {
         setPage(page - 1);
     }
     const nextHandler = () => {
+        if (page >= 10) return;
         setPage(page + 1);
 
     }
