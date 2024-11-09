@@ -32,3 +32,29 @@
 .selected {
     background-color: var(--primary-color);
 }
+
+@media (max-width: 600px) {
+
+    /* تنظیمات ریسپانسیو برای .pagination */
+    .pagination {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+        /* فاصله بین عناصر */
+        margin-bottom: 50px;
+        /* کاهش فاصله پایین */
+    }
+
+    /* تنظیمات ریسپانسیو برای دکمه‌های .pagination */
+    .pagination button {
+        width: 60px;
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+
+    /* تنظیمات ریسپانسیو برای شماره صفحه .pagination p */
+    .pagination p {
+        width: 30px;
+        font-size: 0.9rem;
+    }
+}

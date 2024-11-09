@@ -24,3 +24,23 @@
     color: var(--text-color-light);
     font-size: 18px;
 }
+
+/* Media Query برای نمایشگرهای کوچک‌تر */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 10px;
+        margin-bottom: 100px;
+    }
+
+    .header a {
+        font-size: 1rem;
+    }
+
+    .footer {
+        padding: 15px;
+        margin-top: 50px;
+        font-size: 16px;
+    }
+}

@@ -71,3 +71,66 @@
     width: 25px;
     height: 25px;
 }
+
+@media (max-width: 768px) {
+
+    /* تنظیمات ریسپانسیو برای .searchBox */
+    .searchBox {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    /* تنظیمات ریسپانسیو برای input */
+    .searchBox input {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    /* تنظیمات ریسپانسیو برای select */
+    .searchBox select {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    /* تنظیمات ریسپانسیو برای .searchResult */
+    .searchResult {
+        width: 90%;
+        top: 70px;
+        height: 300px;
+    }
+
+    /* تنظیمات ریسپانسیو برای .searchResult li */
+    .searchResult li {
+        margin-bottom: 10px;
+    }
+
+    .searchResult li img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* تنظیمات ریسپانسیو برای دستگاه‌های موبایل کوچک‌تر */
+@media (max-width: 480px) {
+
+    /* تنظیمات ریسپانسیو برای .searchBox */
+    .searchBox input {
+        width: 85%;
+        padding: 10px;
+    }
+
+    .searchBox select {
+        width: 85%;
+    }
+
+    /* تنظیمات ریسپانسیو برای .searchResult */
+    .searchResult {
+        height: 250px;
+    }
+
+    .searchResult li {
+        font-size: 0.9rem;
+    }
+}
